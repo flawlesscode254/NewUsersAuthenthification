@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+
+
+        <EditText
+            android:id="@+id/mEdtMail"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="23dp"
+            android:hint="Email Address"
+            android:drawablePadding="10dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/mEdtPass"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="23dp"
+            android:hint="Password"
+            android:drawablePadding="10dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <Button
+            android:id="@+id/mBtnSave"
+            android:layout_width="match_parent"
+            android:text="Sign In"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textAllCaps="false"
+            android:textSize="21sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/mBtnGo"
+            android:layout_width="match_parent"
+            android:background="#024304"
+            android:text="Sign Up"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:textAllCaps="false"
+            android:textSize="21sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "464901627576",
+    "firebase_url": "https://foodsheriffsos.firebaseio.com",
+    "project_id": "foodsheriffsos",
+    "storage_bucket": "foodsheriffsos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464901627576:android:5983d72effac88840dde4d",
+        "android_client_info": {
+          "package_name": "com.example.foodsheriffsos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464901627576-hubbfgvt1h31ftnktoc26rsdscbb99dq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBne_XDVHC4N3gQ2egs_qmM0v3e_Z-C-ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464901627576-hubbfgvt1h31ftnktoc26rsdscbb99dq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
